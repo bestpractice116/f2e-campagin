@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: 'Noto Sans TC';
+		font-weight: normal;
+		src: url('./assets/fonts/NotoSansTC-Regular.otf');
+	}
+
+	@font-face {
+		font-family: 'Noto Sans TC';
+		font-weight: bold;
+		src: url('./assets/fonts/NotoSansTC-Bold.otf');
+	}
+
+	@font-face {
+		font-family: 'Monument Extended';
+		src: url('./assets/fonts/MonumentExtended-Regular.otf');
+	}
+
+	@font-face {
+		font-family: 'Montserrat';
+		src: url('./assets/fonts/Montserrat-Medium.ttf');
+	}
+
+	@font-face {
+		font-family: 'Pilot Command';
+		src: url('./assets/fonts/PilotCommand-Italic.otf');
+	}
+
+	body {
+		@apply bg-neutral-5 font-noto overflow-x-hidden;
+	}
+}
+
+@layer components {
+	.btn-secondary {
+		@apply
+			text-neutral-1
+			rounded-[40px] border
+			hover:bg-secondary hover:bg-opacity-20
+			hover:shadow-secondary hover:shadow-xs
+			hover:border-secondary
+			hover:text-secondary;
+	}
+
+	.btn-yellow {
+		@apply
+			leading-9
+			text-neutral-6
+			bg-yellow-1
+			mt-[45px] rounded-[50px] px-10 py-2
+			text-xl font-bold
+			duration-200
+			hover:bg-yellow-2
+			hover:shadow-xs hover:shadow-yellow-3
+			md:mt-[min(8vw,100px)] md:px-[min(6vw,72px)] md:py-[min(2vw,20px)]
+			md:text-[min(2.4vw,24px)];
+	}
+
+	.maquree-text {
+		background: linear-gradient(to bottom, #9FA6FF, #55FFAD);
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-stroke: 4px transparent;
+	}
+
+	.invisible-scrollbar::-webkit-scrollbar {
+		display: none;
+	}
+}
+
+@layer utilities {
+	.perspective {
+		perspective: 1000px;
+	}
+
+	.transform-3d {
+		transform-style: preserve-3d;
+	}
+}
