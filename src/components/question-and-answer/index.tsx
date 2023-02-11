@@ -5,6 +5,7 @@ import {
 	f2eQuestionsData,
 	teamQuestionsData,
 } from '../../constant';
+import { QuestionsCountEnum } from '../../enums';
 import TabPanel from './tab-panel';
 import Tabs from './tabs';
 
@@ -15,7 +16,7 @@ type Content = {
 
 function QuestionAndAnswer() {
 	function _renderTabsContent(data: Content[]) {
-		return data.map((item, index) => (
+		return data.map((item, index: QuestionsCountEnum) => (
 			<div
 				key={index}
 				className='flex gap-6'

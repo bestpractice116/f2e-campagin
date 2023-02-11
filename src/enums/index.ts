@@ -7,11 +7,6 @@ export enum QuestionsCountEnum {
 	Q6 = 5,
 }
 
-export enum HandDirectionEnum {
-	Left = 'left',
-	Right = 'right',
-}
-
 export enum ViewPortEnum {
 	Small = 650,
 	Medium = 768,
