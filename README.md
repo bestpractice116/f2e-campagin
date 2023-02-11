@@ -1,10 +1,8 @@
 # F2E 4rd campagin
----
 [Demo](https://tommm2.github.io/f2e-4rd-campagin/#/)
 
 ## 預覽圖
----
-![Web-Design.png](https://postimg.cc/y3c4h7cM)
+![Web-Design.png](https://i.postimg.cc/KjsG2zz8/Web-Design.png)
 
 ## Using
 - React
@@ -16,7 +14,6 @@
 - vite
 
 ## Project structure
----
 ```
 $PROJECT_ROOT
 ├── assets
