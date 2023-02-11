@@ -4,13 +4,13 @@
 
 ## 預覽圖
 ---
-[Web-Design.png](https://postimg.cc/y3c4h7cM)
+![Web-Design.png](https://postimg.cc/y3c4h7cM)
 
 ## Using
 - React
 - Typescript
 - Tailwindcss
-- ![clsx](https://www.npmjs.com/package/clsx) - A tiny utility for constructing className strings conditionally.
+- [clsx](https://www.npmjs.com/package/clsx) - A tiny utility for constructing className strings conditionally.
 - gsap
 - eslint
 - vite
@@ -24,8 +24,8 @@ $PROJECT_ROOT
 ├── components
 │   # React component files
 ├── hooks
-│  		├── useMobileDetect # dectect mobile viewport
-│  		└── useIntersectionObserver # dectect target is into view or not
+│  ├── useMobileDetect # dectect mobile viewport
+│  └── useIntersectionObserver # dectect target is into view or not
 ├── constant
 │   # constant data
 ├── enums
@@ -48,4 +48,4 @@ useLayoutEffect(() => {
 ```
 
 ## 設計稿作者及圖片提供
-### ![Jenny Wu](https://2022.thef2e.com/users/12061549261447630282/)
+### [Jenny Wu](https://2022.thef2e.com/users/12061549261447630282/)
