@@ -6,28 +6,33 @@
 	@font-face {
 		font-family: 'Noto Sans TC';
 		font-weight: normal;
-		src: url('./assets/fonts/NotoSansTC-Regular.otf');
+		font-display: swap;
+		src: url('./assets/fonts/NotoSansTC-Regular.woff') format('woff');
 	}
 
 	@font-face {
 		font-family: 'Noto Sans TC';
 		font-weight: bold;
-		src: url('./assets/fonts/NotoSansTC-Bold.otf');
+		font-display: swap;
+		src: url('./assets/fonts/NotoSansTC-Bold.woff') format('woff');
 	}
 
 	@font-face {
 		font-family: 'Monument Extended';
-		src: url('./assets/fonts/MonumentExtended-Regular.otf');
+		font-display: swap;
+		src: url('./assets/fonts/MonumentExtended-Regular.woff') format('woff');
 	}
 
 	@font-face {
 		font-family: 'Montserrat';
-		src: url('./assets/fonts/Montserrat-Medium.ttf');
+		font-display: swap;
+		src: url('./assets/fonts/Montserrat-Medium.woff') format('woff');
 	}
 
 	@font-face {
 		font-family: 'Pilot Command';
-		src: url('./assets/fonts/PilotCommand-Italic.otf');
+		font-display: swap;
+		src: url('./assets/fonts/PilotCommand-Italic.woff') format('woff');
 	}
 
 	body {
