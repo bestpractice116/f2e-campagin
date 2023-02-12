@@ -69,7 +69,7 @@ module.exports = {
 				'gradient-2': 'linear-gradient(180deg, #9DA4FF 0%, #6E77E9 100%)',
 				'gradient-3': 'linear-gradient(210.34deg, #717AEA 1.25%, #9EA4FF 96.07%)',
 				'gradient-4': 'linear-gradient(142.33deg, rgba(157, 164, 255, 0.8) -0.03%, rgba(85, 255, 173, 0.8) 99.97%)',
-				'banner': 'url("./src/assets/images/banner-bg.png")',
+				'banner': 'url("/src/assets/images/banner-bg.png")',
 			},
 			fontFamily: {
 				'noto': ['Noto Sans TC'],
